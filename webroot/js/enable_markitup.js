@@ -1,7 +1,8 @@
 $(function() {
-  $('textarea.markItUp').markItUp(mySettings);
-  $(document).bind('end.pjax', function(e){
+  var enableMarkItUp = function() {
     $('textarea.markItUp').markItUp(mySettings);
-  });
+  };
+  $(document).bind('end.pjax', enableMarkItUp);
+  enableMarkItUp();
 });
 

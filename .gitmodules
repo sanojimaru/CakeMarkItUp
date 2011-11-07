@@ -1,0 +1,3 @@
+[submodule "webroot/vendor/js-markdown-extra"]
+	path = webroot/vendor/js-markdown-extra
+	url = git://github.com/tanakahisateru/js-markdown-extra.git
